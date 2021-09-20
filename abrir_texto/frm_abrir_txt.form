@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="java.awt.MenuBar" name="menuBar1">
+      <SubComponents>
+        <Menu class="java.awt.Menu" name="menu1">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="java.awt.Menu" name="menu2">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+    <Container class="javax.swing.JMenu" name="jMenu1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenu1"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="btn_procesar" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btn_limpiar" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btn_abrir" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btn_guardar" min="-2" pref="100" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lbl_palabra_central" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_letra_central_del_texto" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ultima_letra_del_texto" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_primer_letra_del_texto" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_total_de_palabras" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_longitud_del_texto" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_primera_palabra" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ultima_palabra" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="146" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_palabras_impar" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_palabras_par" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_rep_u" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_rep_o" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_rep_i" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_rep_e" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_rep_a" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="62" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btn_abrir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_guardar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="160" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btn_procesar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_limpiar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lbl_longitud_del_texto" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_total_de_palabras" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_primer_letra_del_texto" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_ultima_letra_del_texto" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_letra_central_del_texto" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_primera_palabra" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_palabra_central" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lbl_rep_a" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_rep_e" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_rep_i" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_rep_o" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_rep_u" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_palabras_par" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_palabras_impar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbl_ultima_palabra" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="jScrollPane3" min="-2" pref="172" max="-2" attributes="0"/>
+              <EmptySpace pref="65" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="txt_area1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btn_abrir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Abrir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_abrirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_guardar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_guardarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_procesar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Procesar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_procesarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_longitud_del_texto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Longitud del texto:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_total_de_palabras">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total de palabras:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_primer_letra_del_texto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Primer letra del texto:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_ultima_letra_del_texto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ultima letra del texto:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_letra_central_del_texto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Letra central del texto:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_primera_palabra">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Primera palabra:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_palabra_central">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Palabra central:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_ultima_palabra">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ultima palabra:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_rep_a">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Repeticiones de &quot;A&quot;, &quot;a&quot; &#xf3; &quot;&#xe1;&quot;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_rep_e">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Repeticiones de &quot;E&quot;, &quot;e&quot; &#xf3; &quot;&#xe9;&quot;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_rep_i">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Repeticiones de &quot;I&quot;, &quot;i&quot; &#xf3; &quot;&#xed;&quot;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_rep_o">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Repeticiones de &quot;O&quot;, &quot;o&quot; &#xf3; &quot;&#xf3;&quot;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_rep_u">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Repeticiones de &quot;U&quot;, &quot;u&quot; &#xf3; &quot;&#xfa;&quot;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_palabras_par">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Palabras con cantidad de caracteres par:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_palabras_impar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Palabras con cantidad de caracteres impar:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="txt_area2">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btn_limpiar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_limpiarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
